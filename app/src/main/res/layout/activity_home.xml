@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/observer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="observer" />
+
+    <Button
+        android:id="@+id/ViewModel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ViewModel" />
+
+    <Button
+        android:id="@+id/LiveData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LiveData" />
+
+    <Button
+        android:id="@+id/Databinding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/databinding" />
+
+    <Button
+        android:id="@+id/bindingadapters"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="bindingadapters" />
+    <Button
+        android:id="@+id/MVVM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MVVM" />
+    <Button
+        android:id="@+id/DiffUtils"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DiffUtils" />
+
+    <Button
+        android:id="@+id/RoomRetrofit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RoomRetrofit" />
+
+    <Button
+        android:id="@+id/RetrofitData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RetrofitData" />
+
+    <Button
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Google Map" />
+    <Button
+        android:id="@+id/ImageSlider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ImageSlider" />
+</LinearLayout>

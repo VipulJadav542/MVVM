@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MVVM</string>
+    <string name="button">Button</string>
+    <string name="textview">TextView</string>
+    <string name="databinding">Databinding</string>
+    <string name="insertquote">InsertQuote</string>
+    <string name="date_modified">date_modified\n</string>
+    <string name="date_added">date_added\n</string>
+</resources>
